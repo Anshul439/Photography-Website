@@ -13,7 +13,12 @@
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Libre+Caslon+Display&family=Playfair+Display:ital@1&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    
+    <link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+/>
+
+
 </head>
 
 <body>
@@ -26,26 +31,27 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown item2">
-                    <a class="nav-link dropdown-toggle slide-dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Portfolio
+                    <a class="nav-link dropdown-toggle slide-dropdown" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Portfolio
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item " href="pre-wedding.html">Pre Wedding</a>
-                      <a class="dropdown-item" href="wedding.html">Wedding</a>
-                      <a class="dropdown-item" href="photoshoot.html">Photoshoot</a>
+                        <a class="dropdown-item " href="pre-wedding.html">Pre Wedding</a>
+                        <a class="dropdown-item" href="wedding.html">Wedding</a>
+                        <a class="dropdown-item" href="videos.html">Videos</a>
                     </div>
-                  </li>
-            
+                </li>
+
             </ul>
-            
+
         </div>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon colorChangeButton1"></span>
-                    <span class="navbar-toggler-icon colorChangeButton2"></span>
-                    <span class="navbar-toggler-icon colorChangeButton3"></span>
-                </button>
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon colorChangeButton1"></span>
+            <span class="navbar-toggler-icon colorChangeButton2"></span>
+            <span class="navbar-toggler-icon colorChangeButton3"></span>
+        </button>
 
         <a class="navbar-brand mx-auto" href="index.html">
             <img class="logo" src="images/logo.png" alt="">
@@ -54,7 +60,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item item3 active">
-                    <a class="nav-link" href="portfolio.html">About Us</a>
+                    <a class="nav-link" href="#about">About Us</a>
                 </li>
                 <li class="nav-item item4 active">
                     <a class="nav-link" href="contact2.html">Contact</a>
@@ -66,7 +72,7 @@
 
 
 
-    <div id="carousel" class="carousel slide margin" data-ride="carousel" data-interval="5000">
+    <div id="carousel" class="carousel slide margin" data-ride="carousel" data-interval="2000">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/s1.jpg" class="d-block mx-auto img-fluid s1" alt="...">
@@ -95,7 +101,8 @@
             <h2>All The Heart- <br> Pounding</h2>
             <h4>breath-taking good <br> stuff!</h4>
         </div>
-        <div class="flex-item2 vertical-line col-lg-9 col-md-6 col-sm-12">Let's create together! It's all about your soul-stirring, teary eyed,
+        <div class="flex-item2 vertical-line col-lg-9 col-md-6 col-sm-12">Let's create together! It's all about your
+            soul-stirring, teary eyed,
             wheezy-laughing, fiercely real love! We believe in creating with you, not just for you.</div>
     </div>
 
@@ -128,26 +135,35 @@
         </div>
     </div>
 
-    <div class="d-md-flex flex-wrap">
+    <div class="d-md-flex flex-wrap" id="about">
         <div class="flex-item3 lastt col-lg-6 col-md-12">
             <h2>About Us</h2>
             <br class="about-us">
-            <p>Manjinder Singh started off with a spirit to grow and conquer in 1992. It's been 21 years since he stepped into the world of photography, which is now followed by his son. Walking on the same path but with the aim to reach heights and expanding the business. Lovely Art Photography has been proving best since ages and will keep on doing so. Bringing out on a better taste every season and with the aim to deliver the best always</p>
+            <p>Manjinder Singh started off with a spirit to grow and conquer in 1992. It's been 21 years since he
+                stepped into the world of photography, which is now followed by his son. Walking on the same path but
+                with the aim to reach heights and expanding the business. Lovely Art Photography has been proving best
+                since ages and will keep on doing so. Bringing out on a better taste every season and with the aim to
+                deliver the best always</p>
         </div>
         <div class="flex-item4 col-lg-6 col-md-12">
             <img src="images/IMG_7336.jpg" alt="">
         </div>
     </div>
-    
+
 
 
     <div class="footer">
         <br>
         <br>
-        <iframe class="iframe-container" src="https://www.instagram.com/lovelyartphotography13/embed/" frameborder="0" height=""></iframe>
+        <iframe class="iframe-container" src="https://www.instagram.com/lovelyartphotography13/embed/" frameborder="0"></iframe>
         <br>
         <br>
         <span class="footer-content">&copy Lovely Art Photography</span>
+        <div class="social-icons">
+            <a href="#" class="fab fa-instagram" style="color: #722173;" aria-label="Instagram" target="_blank"></a>
+            <a href="#" class="fab fa-facebook" aria-label="Facebook" target="_blank"></a>
+            <a href="#" class="fab fa-youtube" style="color: red;" aria-label="YouTube" target="_blank"></a>
+          </div>
     </div>
 
 
@@ -159,38 +175,27 @@
         crossorigin="anonymous"></script>
 
     <script>
-        // const navEl = document.querySelector('.navbar');
-
-        // window.addEventListener('scroll', () => {
-        //     if (window.scrollY > 0) {
-        //         navEl.classList.add('navbar-scrolled')
-        //     }
-        //     else if (window.scrollY < 1) {
-        //         navEl.classList.remove('navbar-scrolled');
-        //     }
-
-        // })
 
         const navbar = document.querySelector('.navbar');
-const button1 = document.querySelector('.colorChangeButton1');
-const button2 = document.querySelector('.colorChangeButton2');
-const button3 = document.querySelector('.colorChangeButton3');
+        const button1 = document.querySelector('.colorChangeButton1');
+        const button2 = document.querySelector('.colorChangeButton2');
+        const button3 = document.querySelector('.colorChangeButton3');
 
-window.addEventListener('scroll', () => {
-    if (window.scrollY > 0) {
-        navbar.classList.add('navbar-scrolled');
-        button1.classList.add('navbar-toggler-icon-scrolled');
-        button2.classList.add('navbar-toggler-icon-scrolled');
-        button3.classList.add('navbar-toggler-icon-scrolled');
-        // button.classList.remove('button-default');
-    } else if (window.scrollY < 1) {
-        navbar.classList.remove('navbar-scrolled');
-        button1.classList.remove('navbar-toggler-icon-scrolled');
-        button2.classList.remove('navbar-toggler-icon-scrolled');
-        button3.classList.remove('navbar-toggler-icon-scrolled');
-        // button.classList.add('button-default');
-    }
-});
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 0) {
+                navbar.classList.add('navbar-scrolled');
+                button1.classList.add('navbar-toggler-icon-scrolled');
+                button2.classList.add('navbar-toggler-icon-scrolled');
+                button3.classList.add('navbar-toggler-icon-scrolled');
+                // button.classList.remove('button-default');
+            } else if (window.scrollY < 1) {
+                navbar.classList.remove('navbar-scrolled');
+                button1.classList.remove('navbar-toggler-icon-scrolled');
+                button2.classList.remove('navbar-toggler-icon-scrolled');
+                button3.classList.remove('navbar-toggler-icon-scrolled');
+                // button.classList.add('button-default');
+            }
+        });
     </script>
 
 

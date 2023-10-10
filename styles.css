@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .carousel-inner .carousel-item img {
     width: 100%
 }
@@ -6,17 +10,17 @@
     transition: transform 1s;
 }
 
-/* .margin {
-    margin-left: 100px;
-    margin-right: 100px;
-} */
 
 
+.fab {
+    font-size: 20px;
+    padding: 6px 7px 0;
+}
 
 @media (max-width:990px) {
     .navbar-brand {
         /* padding-left: 30px; */
-        translate: -27px 0;
+        translate: -28px 0;
     }
 }
 
@@ -262,7 +266,7 @@ img {
 .iframe-container {
     width: 90%;
     /* Set the width of the container */
-    height: 400px;
+    height: 580px;
     /* Set the height of the container */
     overflow: hidden;
     /* Hide scrollbars */
@@ -441,49 +445,6 @@ iframe {
 }
 
 
-
-@media (max-width:590px) {
-    .carousel-item .s1 {
-        /* padding-left: 30px; */
-        translate: -220px;
-    }
-}
-
-@media (max-width:590px) {
-    .carousel-item .s2 {
-        /* padding-left: 30px; */
-        translate: -370px;
-    }
-}
-
-@media (max-width:590px) {
-    .carousel-item .s3 {
-        /* padding-left: 30px; */
-        translate: -440px;
-    }
-}
-
-@media (max-width:590px) {
-    .carousel-item .s4 {
-        /* padding-left: 30px; */
-        translate: -470px;
-    }
-}
-
-@media (max-width:590px) {
-    .carousel-item .s5 {
-        /* padding-left: 30px; */
-        translate: -200px;
-    }
-}
-
-@media (max-width:590px) {
-    .carousel-item .s6 {
-        /* padding-left: 30px; */
-        translate: -500px;
-    }
-}
-
 @media screen and (min-width: 1200px) {
     .flex-item3 {
         padding-top: 200px;
@@ -543,5 +504,29 @@ iframe {
         padding-top: 20px;
         padding-left: 40px;
         padding-right: 40px;
+    }
+
+    .carousel-item .s1 {
+        translate: -250px;
+    }
+
+    .carousel-item .s2 {
+        translate: -370px;
+    }
+
+    .carousel-item .s3 {
+        translate: -440px;
+    }
+
+    .carousel-item .s4 {
+        translate: -470px;
+    }
+
+    .carousel-item .s5 {
+        translate: -200px;
+    }
+
+    .carousel-item .s6 {
+        translate: -510px;
     }
 }
