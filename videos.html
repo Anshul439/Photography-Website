@@ -15,6 +15,7 @@
     <style>
         .navbar {
             background-color: white;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
         }
 
         .navbar a {
@@ -23,16 +24,6 @@
 
         .navbar a:hover {
             color: rgb(58, 58, 58);
-        }
-
-        /* .col {
-            display: flex;
-            justify-content: center;
-            align-content: center;
-        } */
-
-        .col a {
-            text-align: center;
         }
 
         h3 {
@@ -54,6 +45,20 @@
             }
         }    
 
+        h1 {
+            text-align: center;
+        }
+
+        iframe {
+            height: 300px;
+        }
+
+        @media screen and (max-width: 580px) {
+            .col {
+                min-width: 100%;
+            }
+        }
+
         .col a {
             color: black;
             background: rgb(244, 202, 110);
@@ -64,6 +69,10 @@
             background: rgb(242, 181, 51);
             border-color: rgb(242, 181, 51);
         }
+
+        .navbar-toggler-icon {
+    background-color: black;
+}
         
     </style>
 </head>
@@ -82,8 +91,10 @@
                         Portfolio
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item " href="pre-wedding.html">Pre Wedding</a>
+                        <a class="dropdown-item" href="pre-wedding.html">Pre Wedding</a>
                         <a class="dropdown-item" href="wedding.html">Wedding</a>
+                        <a class="dropdown-item" href="babyshoot.html">Baby Shoot</a>
+                        <a class="dropdown-item" href="brides.html">Brides</a>
                         <a class="dropdown-item" href="videos.html">Videos</a>
                     </div>
                 </li>
@@ -106,7 +117,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item item3 active">
-                    <a class="nav-link" href="#about">About Us</a>
+                    <a class="nav-link" href="index.html#about">About Us</a>
                 </li>
                 <li class="nav-item item4 active">
                     <a class="nav-link" href="contact2.html">Contact</a>
@@ -120,73 +131,43 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
 
+    <h1>Our Videos</h1>
 
+    <br>
+    <br>
 
     <div class="container">
         <div class="row">
-            <div class="col">
-                <div class="d-flex flex-column align-items-center">
-                    <video width="350px" height="350px" controls="controls">
-                        <source src="videos/V-1.mp4" type="video/mp4" />
-                    </video>
-                    <a href="https://youtu.be/HsWrmVaT0n4?si=pchG9pVmdwkCllDv" class="btn btn-primary mt-2">Full
-                        Video</a>
+            <div class="col col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="flex-column">
+                    <iframe src="https://drive.google.com/file/d/1IkKC9DT2DN3Uaf9C44Wa8h7mueg8TlsY/preview" width="640" height="480" allow="autoplay"></iframe>
                 </div>
             </div>
-            <div class="col">
-                <div class="d-flex flex-column align-items-center">
-                    <video width="350px" height="350px" controls="controls">
-                        <source src="videos/V-2.mp4" type="video/mp4" />
-                    </video>
-                    <a href="https://youtu.be/ktJBqHLraQg?si=U0_l_rO79fTf8Tho" class="btn btn-primary mt-2">Full
-                        Video</a>
+            <div class="col col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="flex-column">
+                    <iframe src="https://drive.google.com/file/d/1IkKC9DT2DN3Uaf9C44Wa8h7mueg8TlsY/preview" width="640" height="480" allow="autoplay"></iframe>
                 </div>
             </div>
-            <div class="col">
-                <div class="d-flex flex-column align-items-center">
-                    <video width="350px" height="350px" controls="controls">
-                        <source src="videos/V-3.mp4" type="video/mp4" />
-                    </video>
-                    <a href="https://youtu.be/CzprZD-1QwY?si=TLjrcz8FH3CFlisQ" class="btn btn-primary mt-2">Full
-                        Video</a>
+            <div class="col col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="flex-column">
+                    <iframe src="https://drive.google.com/file/d/1IkKC9DT2DN3Uaf9C44Wa8h7mueg8TlsY/preview" width="640" height="480" allow="autoplay"></iframe>
                 </div>
             </div>
-            <div class="col">
-                <div class="d-flex flex-column align-items-center">
-                    <video width="350px" height="350px" controls="controls">
-                        <source src="videos/V-4.mp4" type="video/mp4" />
-                    </video>
-                    <a href="https://youtu.be/B_-sMqryuAU?si=mGYdFp6UoeL1ee2s" class="btn btn-primary mt-2">Full
-                        Video</a>
+            <div class="col col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="flex-column">
+                    <iframe src="https://drive.google.com/file/d/1IkKC9DT2DN3Uaf9C44Wa8h7mueg8TlsY/preview" width="640" height="480" allow="autoplay"></iframe>
                 </div>
             </div>
 
-            <div class="col">
-                <div class="d-flex flex-column align-items-center">
-                    <video width="350px" height="350px" controls="controls">
-                        <source src="videos/V-5.mp4" type="video/mp4" />
-                    </video>
-                    <a href="https://youtu.be/nyCtCpkFeIo?si=xE7bMIfotABwGYv8" class="btn btn-primary mt-2">Full
-                        Video</a>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="d-flex flex-column align-items-center">
-                    <video width="350px" height="350px" controls="controls">
-                        <source src="videos/V-7.mp4" type="video/mp4" />
-                    </video>
-                    <a href="https://youtu.be/x3CAT8-kUtc?si=3bQov1ncf8hheZ6U" class="btn btn-primary mt-2">Full
-                        Video</a>
-                </div>
-            </div>
 
         </div>
 
         <br>
         <br>
-        <br>
+
 
         <div class="text-center">
             <h3>For more videos, check out the official Youtube Channel - <a
